@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8d230f"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:src="@drawable/d"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Museum Musik Indonesia merupakan Satu-satunya museum  musik di Indonesia, yang berada di kota Malang, Jawa Timur. Ada lebih dari 17 ribu koleksi yang tersimpan di Museum Musik Indonesia. "
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beberapa besar berupa piringan hitam, kaset, CD, VCD, dan dokumentasi lainnya. Genrenya bahkan bermacam-macam mulai dari pop, rock, jazz, latin, nyanyian-nyanyian tempat, dan lain sebagainya."
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dikala menyisir satu demi satu rak dan lemari koleksi, ditemui sebagian nama penyanyi, grup vokal dan grup band aku yang masih eksis atau setidaknya nyanyian-nyanyian mereka masih didengarkan sampai sekarang. Sebagian koleksi tergolong cukup langka dan sungguh-sungguh bernilai. Seperti kaset dari tahun 1950-an dan piringan hitam dari tahun 1924. Segala koleksi lawas yang ada masih dalam situasi bagus dan dapat didengarkan."
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/back"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:text="Home"
+                android:background="@drawable/home"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
